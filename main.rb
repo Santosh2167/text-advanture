@@ -12,7 +12,7 @@ direction = gets.chomp
 
 if direction.downcase=="up" 
     startgame = new up(Name,score,animal)
-    elis direction.downcase =="down"
+elsif direction.downcase =="down"
     new down(Name,score,animal)
 
 
