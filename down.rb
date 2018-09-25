@@ -1,4 +1,5 @@
 def down
+    puts "welcome #{Name}, you have entered the DOWN zone"
     rand(1..3)
     down_array = [1,2,3]
     if down_array == 1
